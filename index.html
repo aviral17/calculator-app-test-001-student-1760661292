@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <!-- Clear button -->
+            <button class="btn clear" id="clear">C</button>
+            <!-- Arithmetic operations -->
+            <button class="btn" data-operation="+">+</button>
+            <button class="btn" data-operation="-">-</button>
+            <button class="btn" data-operation="*">*</button>
+            <button class="btn" data-operation="/">/</button>
+            <!-- Digit buttons 0-9 -->
+            <button class="btn" data-digit="7">7</button>
+            <button class="btn" data-digit="8">8</button>
+            <button class="btn" data-digit="9">9</button>
+            <button class="btn" data-digit="4">4</button>
+            <button class="btn" data-digit="5">5</button>
+            <button class="btn" data-digit="6">6</button>
+            <button class="btn" data-digit="1">1</button>
+            <button class="btn" data-digit="2">2</button>
+            <button class="btn" data-digit="3">3</button>
+            <button class="btn zero" data-digit="0">0</button>
+            <!-- Equals button -->
+            <button class="btn equals" id="equals">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
